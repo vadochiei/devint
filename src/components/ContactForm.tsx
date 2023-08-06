@@ -37,25 +37,25 @@ const ContactForm = () => {
 		  Feel free to provide us with a concise description of the services you're seeking, and we'll be sure to reach out to you promptly.
           </p> */}
           <div className="flex-col my-20 gap-5 flex">
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 744 301 846
               </p>
             </div>
-			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
+			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 757 231 282
               </p>
             </div>
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               {/* <GrMail className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white center">
 			  devintsolutions@gmail.com
               </p>
             </div>
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
               {/* <HiLocationMarker className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
 			  Cluj-Napoca
