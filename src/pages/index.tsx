@@ -29,7 +29,7 @@ export default function Home() {
       
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said">
+        title="Here&apos;s what our customers said">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle>
@@ -41,14 +41,9 @@ export default function Home() {
       </SectionTitle>
       <Services />
 
-      {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <Faq /> */}
       <SectionTitle
         pretitle="Contact">
-        Feel free to compose a message outlining the type of services you're interested in. We'll be sure to respond promptly and discuss your requirements further.
+        Feel free to compose a message outlining the type of services you&apos;re interested in. We&apos;ll be sure to respond promptly and discuss your requirements further.
       </SectionTitle>
       <ContactForm />
 
