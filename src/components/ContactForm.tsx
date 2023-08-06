@@ -3,31 +3,31 @@ import Container from "./Container";
 const ContactForm = () => {
   return (
 
-	<div className="max-w-7xl mx-auto ">
-      <div className="flex justify-around items-center mx-20 md:flex-row flex-col">
+	<div className="max-w-6xl mx-auto ">
+      <div className="flex justify-around items-center  md:flex-row flex-col">
         {/* textual content */}
         <div className="md:w-1/2 w-full md:p-10 my-10 md:my-0  flex-col">
 		
-          <div className="flex-col my-20 gap-5 flex">
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
+          <div className="flex-col mx-9 my-20 gap-5 flex">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 744 301 846
               </p>
             </div>
-			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
+			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 757 231 282
               </p>
             </div>
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <GrMail className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white center">
 			  devintsolutions@gmail.com
               </p>
             </div>
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-1/2 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <HiLocationMarker className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
 			  Cluj-Napoca
@@ -44,8 +44,8 @@ const ContactForm = () => {
           </div>
         </div>
         {/* Contact form */}
-        <div className="bg-white p-12 rounded-lg shadow-md">
-			<h1 className="text-3xl p-3 font-semibold text-black">Get an estimation right away</h1>
+        <div className="bg-white p-2 md:p-5 rounded-lg shadow-md">
+			<h1 className="text-3xl p-3 py-6 font-semibold text-black">Get an estimation right away</h1>
           <form>
             
         	<input
@@ -83,7 +83,7 @@ const ContactForm = () => {
 
             <button
               type="submit"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-indigo-600 hover:bg-indigo-100 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-blue-800"
             >
               Send Message
             </button>
