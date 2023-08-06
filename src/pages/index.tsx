@@ -10,6 +10,7 @@ import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Team from "@/components/Team";
 import Services from "@/components/Services";
+import ContactForm from "@/components/ContactForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,13 +41,21 @@ export default function Home() {
       </SectionTitle>
       <Services />
 
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-      <Faq />
-      <Cta />
+      <Faq /> */}
+      <SectionTitle
+        pretitle="Contact">
+        Feel free to compose a message outlining the type of services you're interested in. We'll be sure to respond promptly and discuss your requirements further.
+      </SectionTitle>
+      <ContactForm />
+
+      {/* <Cta /> */}
+
       <Footer />
+
     </>
   );
 }

@@ -46,15 +46,15 @@ const Services = () => {
         </li>
         <li className="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span className="ml-3">Flexible <span className="text-white">call scheduling</span></span>
+          <span className="ml-3">Cross-Platform<span className="text-white"> Compatibility</span></span>
         </li>
         <li className="flex">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span className="ml-3"><span className="text-white">15 TB</span> cloud storage</span>
+          <span className="ml-3"><span className="text-white">User-Centric</span> Design</span>
         </li>
       </ul>
     </div>
-    
+ 
     <div className="w-full flex-1 mt-8 p-8 order-3 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-3 lg:rounded-l-none">
       <div className="mb-7 pb-7 flex items-center border-b border-gray-300">
         <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" className="rounded-3xl w-20 h-20" />
