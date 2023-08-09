@@ -3,30 +3,37 @@ import Container from "./Container";
 const ContactForm = () => {
   return (
 
-	<div className="max-w-6xl mx-auto ">
+	<div className="max-w-6xl mx-auto p-8">
       <div className="flex justify-around items-center  md:flex-row flex-col">
         {/* textual content */}
-        <div className="md:w-1/2 w-full md:p-10 my-10 md:my-0  flex-col">
+        <div className="md:w-1/2 w-full ">
 		
-          <div className="flex-col mx-9 my-20 gap-5 flex">
+			
+          <div className="flex-col mb-5 gap-5 flex">
+		  <a href="tel:+40 744 301 846">
             <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 744 301 846
               </p>
             </div>
+			</a>
+			<a href="tel:+40 757 231 282">
 			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">
                 +40 757 231 282
               </p>
             </div>
+			</a>
+			<a href="mailto:devintsolutions@gmail.com">
             <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <GrMail className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white center">
 			  devintsolutions@gmail.com
               </p>
             </div>
+			</a>
             <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <HiLocationMarker className="text-xl text-gray-500  group-hover:text-white" /> */}
               <p className="text-gray-500 text-base font-semibold group-hover:text-white">

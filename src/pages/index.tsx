@@ -19,16 +19,30 @@ export default function Home() {
     <>
       <Navigation />
       <Hero />
+      {/* <section
+        className="grid place-content-center min-h-screen bg-gray-100" id="about"
+      > </section> */}
 
+{/* <div id="aboutWrapper"> */}
       <SectionTitle
-        pretitle="Meet the Team">
+        pretitle="Meet the Team"
+        id="about"> 
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle>
+      {/* </div> */}
       <Team />
-      
+
+      <SectionTitle
+        pretitle="Services"
+        id="services">
+        We seamlessly navigate the entire spectrum, encompassing design, implementation, testing, integration, deployment, and ongoing support of tailor-made systems and frameworks. Our unwavering focus remains attuned to the most current industry trends.
+      </SectionTitle>
+      <Services />
+
       <SectionTitle
         pretitle="Testimonials"
+        id="testimonials"
         title="Here&apos;s what our customers said">
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
@@ -36,13 +50,8 @@ export default function Home() {
       <Testimonials />
 
       <SectionTitle
-        pretitle="Services">
-        We seamlessly navigate the entire spectrum, encompassing design, implementation, testing, integration, deployment, and ongoing support of tailor-made systems and frameworks. Our unwavering focus remains attuned to the most current industry trends.
-      </SectionTitle>
-      <Services />
-
-      <SectionTitle
-        pretitle="Contact">
+        pretitle="Contact"
+        id="contact">
         Feel free to compose a message outlining the type of services you&apos;re interested in. We&apos;ll be sure to respond promptly and discuss your requirements further.
       </SectionTitle>
       <ContactForm />

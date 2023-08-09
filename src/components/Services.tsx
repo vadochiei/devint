@@ -4,7 +4,6 @@ const Services = () => {
   return (
 
 <main className="max-w-6xl mx-auto pt-10 pb-36 px-8">
-  
   <div className="flex flex-col justify-between items-center lg:flex-row lg:items-start">
     
     <div className="w-full flex-1 mt-8 p-8 order-2 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 lg:rounded-r-none">

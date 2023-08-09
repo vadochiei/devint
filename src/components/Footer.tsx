@@ -5,11 +5,11 @@ import Container from "./Container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    { text: "Home", href: "/" },
+    { text: "About Us", href: "#about" },
+    { text: "Services", href: "#services" },
+    { text: "Testimonials", href: "#testimonials" },
+    { text: "Contact", href: "#contact" },
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
@@ -50,8 +50,8 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
-                    {item}
+                <Link key={index} href={`${item.href}`} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
+                    {item.text}
                 </Link>
               ))}
             </div>

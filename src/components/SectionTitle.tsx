@@ -7,6 +7,12 @@ const SectionTitle = (props: any) => {
       className={`flex w-full flex-col mt-4 ${
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}>
+      
+      {props.id && (
+        <div id={`${props.id}`}>
+        </div>
+      )}
+
       {props.pretitle && (
         <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
           {props.pretitle}

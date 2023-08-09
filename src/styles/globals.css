@@ -27,3 +27,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#about {
+  position: relative;
+  top: -120px;
+  left: 0;
+}
+#services {
+  position: relative;
+  top: -120px;
+  left: 0;
+}
+#testimonials {
+  position: relative;
+  top: -120px;
+  left: 0;
+}
+#contact {
+  position: relative;
+  top: -120px;
+  left: 0;
+}
