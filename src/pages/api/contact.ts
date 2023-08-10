@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const messageData = {
     from: 'ContactForm <contactForm@devintsolutions.ro>',
-    to: 'vlad.adochiei@yahoo.com, devintsolutions@gmail.com',
+    to: 'devintsolutions@gmail.com',
     subject: `ContactForm: ${subject}`,
     text: `
     Hello
