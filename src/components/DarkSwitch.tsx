@@ -9,7 +9,7 @@ const ThemeChanger = () => {
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
-  console.log("theme", theme);
+  // console.log("theme", theme);
 
   return (
     <div className="flex items-center">

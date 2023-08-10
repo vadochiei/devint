@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import ThemeChanger from "./DarkSwitch";
+import { ThemeProvider } from "next-themes";
 
 const Navbar = () => {
   const navigation = [
@@ -91,7 +92,7 @@ const Navbar = () => {
           <Link href="#contact" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
           Start working with us
           </Link>
-
+              <ThemeProvider enableSystem={false}></ThemeProvider>
           <ThemeChanger />
         </div>
       </nav>

@@ -16,26 +16,16 @@ const Hero = () => {
               <span className="bg-gradient-to-r from-[#f00] to-[#4f46e5] text-transparent bg-clip-text ">
               your dream 
               </span>
-              <br /> one line of code at a time
-            </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              specializing in {" "}
-            
-            <Typed
+              <br /> 
+              <Typed
             strings={[
-              "web development",
-              "mobile development",
-              "UI/UX design",
-              "branding"
+              "one line of code at a time"
             ]}
-            typeSpeed={200}
-            backSpeed={100}
-            loop
-            />{" "}
-
-
-            </p>
-
+            typeSpeed={100}
+            backSpeed={50}
+            loop/>
+            </h1>
+            <br /> 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
@@ -61,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
+      {/* <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-indigo-600">2000+</span>{" "}
@@ -86,7 +76,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   );
 }

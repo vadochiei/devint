@@ -48,3 +48,8 @@ body {
   top: -120px;
   left: 0;
 }
+/* Disable Google Chrome AutoComplete Bg Color change */
+input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 0s 600000s, color 0s 600000s;
+  }

@@ -19,18 +19,11 @@ export default function Home() {
     <>
       <Navigation />
       <Hero />
-      {/* <section
-        className="grid place-content-center min-h-screen bg-gray-100" id="about"
-      > </section> */}
-
-{/* <div id="aboutWrapper"> */}
       <SectionTitle
         pretitle="Meet the Team"
         id="about"> 
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Our dedicated team is a fusion of diverse talents, each contributing their unique expertise to create innovative solutions. With a shared commitment to excellence, we collaboratively navigate challenges and inspire growth. Discover the faces behind our success, as we introduce the driving force that brings your visions to life.
       </SectionTitle>
-      {/* </div> */}
       <Team />
 
       <SectionTitle
