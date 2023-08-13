@@ -47,30 +47,30 @@ const ContactForm = () => {
 		
 			
           <div className="flex-col mb-5 gap-5 flex">
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('tel:+40 744 301 846', '_self')}>
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-indigo-600 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('tel:+40 744 301 846', '_self')}>
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-black dark:group-hover:text-white">
                 +40 744 301 846
               </p>
             </div>
 			
-			<div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('tel:+40 757 231 282', '_self')}>
+			<div className="flex gap-5 p-4 border border-gray-500 hover:border-indigo-600 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('tel:+40 757 231 282', '_self')}>
               {/* <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-white" /> */}
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-black dark:group-hover:text-white">
                 +40 757 231 282
               </p>
             </div>
 
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('mailto:devintsolutions@gmail.com', '_self')}>
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-indigo-600 md:w-2/3 w-full rounded-lg group cursor-pointer items-center" onClick={() => window.open('mailto:devintsolutions@gmail.com', '_self')}>
               {/* <GrMail className="text-xl text-gray-500  group-hover:text-white" /> */}
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white center">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-black dark:group-hover:text-white">
 			          devintsolutions@gmail.com
               </p>
             </div>
 
-            <div className="flex gap-5 p-4 border border-gray-500 hover:border-blue-700 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
+            <div className="flex gap-5 p-4 border border-gray-500 hover:border-indigo-600 md:w-2/3 w-full rounded-lg group cursor-pointer items-center">
               {/* <HiLocationMarker className="text-xl text-gray-500  group-hover:text-white" /> */}
-              <p className="text-gray-500 text-base font-semibold group-hover:text-white">
+              <p className="text-gray-500 text-base font-semibold group-hover:text-black dark:group-hover:text-white">
 			          Cluj-Napoca
               </p>
             </div>
@@ -86,18 +86,18 @@ const ContactForm = () => {
         </div>
         {/* Contact form */}
         {/* <div className="bg-trueGray-800 p-2 md:p-5 rounded-lg shadow-md"> */}
-		<div className="bg-black p-2 md:p-5 rounded-lg shadow-md">
+		<div className="bg-gray-100 dark:bg-black p-2 md:p-5 rounded-lg shadow-md">
 {/* {isSubmitted? (
   <div><h1>Sent</h1></div>
 ): ( */}
   
   <form onSubmit={onSubmit} method="post"> 
-            <h1 className="text-3xl p-3 py-6 font-semibold text-white">Get an estimation right away</h1>
+            <h1 className="text-3xl p-3 py-6 font-semibold text-black dark:text-white">Get an estimation right away</h1>
         	<input
             	type="text"
               name="first_name"
               id="first_name"
-              className="form-control bg-trueGray-800 dark:bg-black block w-full px-3 py-2 mb-5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              className="form-control darl:bg-trueGray-800 dark:bg-black block w-full px-3 py-2 mb-5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               placeholder="Full Name "
         	    required={true}
 				      value={name}
